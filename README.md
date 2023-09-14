@@ -1,4 +1,4 @@
-# scryfall-bulkdata-set-finder
+# Bulkdata Sniffer 🤥
 
 To install dependencies:
 
@@ -9,7 +9,5 @@ bun install
 To run:
 
 ```bash
-bun run index.ts
+bun run index.ts -set=[your set code here] -path=[path to your oracle-cards.json file]
 ```
-
-This project was created using `bun init` in bun v1.0.1. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
