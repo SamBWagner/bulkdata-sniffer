@@ -4,6 +4,10 @@ const args: string[] = Bun.argv.slice(2);
 let setArgs: string[] = [];
 let pathString: string = "";
 
+if (args.length < 2) {
+  console.log("Error: Please provide both of the required arguments: '-set=' and '-path='");
+}
+
 for (let i = 0; i < args.length; i++) {
   const arg = args[i];
 
